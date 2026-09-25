@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Achievements | Rohit Mhetre | rohit.fitlog</title>
+<meta name="description" content="Bodybuilding competition photos from a single year of Rohit Mhetre's career." />
+<link rel="icon" href="data:," />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div id="site-header"></div>
+
+<main>
+
+  <section class="page-hero" style="padding-bottom:2rem;">
+    <div class="container">
+      <div class="year-detail-head">
+        <div>
+          <span class="h-kicker">Achievements</span>
+          <h1 class="display-1" id="yearTitle">—</h1>
+          <p id="yearCount" style="margin-top:0.75rem;"></p>
+        </div>
+        <a class="back-link" href="achievements.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+          Back to Achievements
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="container">
+      <div class="masonry" id="yearGallery"></div>
+      <div class="empty-note" id="yearNotFound" style="display:none;">
+        We couldn't find that year. <a class="btn-ghost" href="achievements.html" style="margin-left:0.4rem;">Back to Achievements</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div id="site-footer"></div>
+
+<script src="js/achievements-data.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/render-achievement-year.js"></script>
+<script src="js/components.js"></script>
+</body>
+</html>
